@@ -1,0 +1,94 @@
+{
+  "pitches": [
+    {
+      "title": "Ratio Four Coffee Machine",
+      "image": "https://ratiocoffee.com/cdn/shop/files/ratio-four-1_540x.jpg?v=1705959008",
+      "price": "$225.00",
+      "description": "Meet Ratio Four: the first affordable and beautiful “half batch” pour over coffee machine. The Four is our smallest brewer yet, an agile, sleek machine that puts out between 5 and 20 ounces of coffee per batch, enough for one to two reasonably sized cups, or one big travel mug. ",
+      "id": "1"
+    },
+    {
+      "title": "Ratio Six Coffee Machine",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio6-black-A3_7f3d3fc4-7d12-4aa4-a809-62746b73af24_540x.jpg?v=1675189304",
+      "description": "(450 Reviews)",
+      "price": "$339.00",
+      "id": "2"
+    },
+    {
+      "title": "Ratio Eight Coffee <br> Machine - Glass Carafe",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio8-silver-walnut-glass-A2_218f7abd-ddd0-4077-9d50-1ed8abba5efc_540x.jpg?v=1629843557",
+      "description": "(225 Reviews) ",
+      "price": "$645.00",
+      "id": "3"
+    }
+  ],
+  "pitche": [
+    {
+      "title": "Ratio Four Coffee Machine",
+      "image": "https://ratiocoffee.com/cdn/shop/files/ratio-four-1_540x.jpg?v=1705959008",
+      "description": "(450 Reviews)",
+      "price": "$225.00",
+      "id": "4"
+    },
+    {
+      "title": "Ratio Eight Coffee Machine<br> - Glass Carafe",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio8-silver-walnut-glass-A2_218f7abd-ddd0-4077-9d50-1ed8abba5efc_540x.jpg?v=1629843557",
+      "description": "(450 Reviews)",
+      "price": "$645.00",
+      "id": "5"
+    },
+    {
+      "title": "Ratio Eight Coffee<br> Machine - Thermal Set",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio-black-ebonized-thermal-cropped-A1_ce52dbc6-3aa1-46db-9d55-b5147c535bab_540x.jpg?v=1675275748",
+      "description": "(450 Reviews)",
+      "price": "$745.00",
+      "id": "6"
+    },
+    {
+      "title": "Ratio Six Coffee Machine",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio6-black-A3_7f3d3fc4-7d12-4aa4-a809-62746b73af24_540x.jpg?v=1675189304",
+      "description": "(450 Reviews)",
+      "price": "$339.00",
+      "id": "7"
+    }
+  ],
+  "espresso": [
+    {
+      "title": "Ratio Four Coffee Machine",
+      "image": "https://ratiocoffee.com/cdn/shop/files/ratio-four-1_540x.jpg?v=1705959008",
+      "description": "(450 Reviews)",
+      "price": "$225.00",
+      "id": "4"
+    },
+    {
+      "title": "Ratio Eight Coffee Machine<br> - Glass Carafe",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio8-silver-walnut-glass-A2_218f7abd-ddd0-4077-9d50-1ed8abba5efc_540x.jpg?v=1629843557",
+      "description": "(450 Reviews)",
+      "price": "$645.00",
+      "id": "5"
+    },
+    {
+      "title": "Ratio Eight Coffee<br> Machine - Thermal Set",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio-black-ebonized-thermal-cropped-A1_ce52dbc6-3aa1-46db-9d55-b5147c535bab_540x.jpg?v=1675275748",
+      "description": "(450 Reviews)",
+      "price": "$745.00",
+      "id": "6"
+    },
+    {
+      "title": "Ratio Six Coffee Machine",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio6-black-A3_7f3d3fc4-7d12-4aa4-a809-62746b73af24_540x.jpg?v=1675189304",
+      "description": "(450 Reviews)",
+      "price": "$339.00",
+      "id": "7"
+    }
+  ],
+  "cart": [
+    {
+      "id": "cc31",
+      "title": "Ratio Eight Coffee Machine<br> - Glass Carafe",
+      "image": "https://ratiocoffee.com/cdn/shop/products/ratio8-silver-walnut-glass-A2_218f7abd-ddd0-4077-9d50-1ed8abba5efc_540x.jpg?v=1629843557",
+      "price": "$645.00id=5",
+      "description": "(450 Reviews)"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .card-img {
+            height: 400px;
+            width: 50%;
+        }
+        
+        .card-img img {
+            height: 300px;
+            width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="text-center">Add To Cart</h1>
+    <div id="mainsection">
+        <!-- insert here with js -->
+    </div>
+    <script>
+        let mainsection = document.getElementById('mainsection');
+
+        function showData() {
+            let result = fetch('http://localhost:3000/cart').then(e => e.json()).then(e => {
+                e.map(e => {
+                    Data(e.id, e.image, e.title, e.founder, e.price, e.category)
+                })
+            })
+        }
+        showData()
+
+        function Data(id, image, title, founder, price, category) {
+            let insert =
+                `
+                <div class='card w-50 m-auto mb-3' data-id=${id}>
+                        <div class='card-img'>
+                            <img src='${image}' alt='image not found'>
+                        </div>
+                        
+                        <div class='card-body'>
+                            <h4 class='card-title'>${title}</h4>
+                            <p class='card-price'>${price}</p>
+                            <button class='icon' data-id=${id}>Delete</button>
+                        </div>
+                </div>
+                `
+            mainsection.innerHTML += insert
+        }
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('icon')) {
+                deletePitch(e.target.dataset.id)
+            }
+        })
+
+        function deletePitch(id) {
+            let delPitch = fetch(`http://localhost:3000/cart/${id}`, {
+                method: 'DELETE'
+            })
+
+        }
+    </script>
+</body>
+
+</html>

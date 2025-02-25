@@ -1,0 +1,342 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.heder1 {
+    height: 35px;
+    width: 100%;
+    background-color: black;
+    /* padding: 15px; */
+    align-items: center;
+    color: white;
+}
+
+.heder2 {
+    height: 30px;
+    width: 100%;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.poster {
+    height: 600px;
+    width: 100%;
+}
+
+.poster img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.poster button {
+    height: 50px;
+    /* width: 100px; */
+    text-align: left;
+    color: white;
+    background-color: #143a47;
+}
+
+.poster button:hover {
+    width: 190px;
+}
+
+.typing {
+    width: 100%;
+    height: 520px;
+    background-color: whitesmoke;
+    padding: 100px;
+    /* margin-left: 20px; */
+}
+
+.typing p {
+    font-size: 20px;
+}
+
+.links a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.icon a {
+    padding: 15px;
+    color: black;
+}
+
+.main a {
+    color: black;
+    text-decoration: none;
+}
+
+.main button {
+    width: 50%;
+    padding: 10px;
+    color: #143a47;
+}
+
+.main button:hover {
+    color: white;
+    background-color: #143a47;
+}
+
+label {
+    width: 23%;
+    text-align: center;
+    background-color: #143a47;
+    color: white;
+    font-weight: 500;
+    margin-left: 300px;
+}
+
+.data-list-wrapper {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.data-list-wrapper a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.data-list-wrapper a:hover {
+    color: black;
+}
+
+.card {
+    height: 500px;
+    width: 100%;
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+}
+
+.card-button:hover {
+    background-color: #143a47;
+    color: white;
+}
+
+
+/* slider */
+
+.slider {
+    height: 500px;
+    width: 100%;
+}
+
+.slider img {
+    height: 500px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* compare */
+
+.compare {
+    height: 500px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.comparetype {
+    height: 430px;
+    width: 100%;
+    background-color: whitesmoke;
+    align-content: center;
+    padding: 40px;
+    /*margin: 20px; */
+}
+
+.comparetype button {
+    height: 50px;
+    /* width: 150px; */
+    text-align: left;
+    color: white;
+    background-color: #143a47;
+}
+
+.comparetype button:hover {
+    width: 160px;
+}
+
+.compareimage {
+    height: 50%;
+    width: 50%;
+}
+
+
+/* swiper slider */
+
+.swiper {
+    height: 600px;
+    width: 100%;
+}
+
+.swiper-slide {
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.swiper-slide img {
+    background-size: cover;
+}
+
+.workshop {
+    width: 300px;
+    padding-left: 20px;
+}
+
+.swiper-slide p,
+h2 {
+    text-align: left;
+}
+
+
+/* journal */
+
+.journal {
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+
+.boxes {
+    height: 300px;
+    width: 100%;
+}
+
+.b1 {
+    background-color: whitesmoke;
+    /* border: 2px solid black; */
+}
+
+.b1 .img {
+    overflow: hidden;
+}
+
+.b1 img {
+    transition: all 3.5s ease;
+}
+
+.b1 img:hover {
+    transform: scale(1.1);
+}
+
+.boxes img {
+    height: 170px;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.j1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-decoration: none; */
+}
+
+
+/* links */
+
+.link {
+    height: 450px;
+    width: 100%;
+    /* text-align: center; */
+    border-bottom: 2px solid gray;
+}
+
+.link a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    text-align: left;
+}
+
+.link a:hover {
+    color: black;
+}
+
+.email {
+    padding: 10px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.email i {
+    margin-right: 2px;
+    font-size: 20px;
+}
+
+.follow {
+    text-align: center;
+}
+
+.icon i {
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/* Machines */
+
+.machines {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.machines a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.machines a:hover {
+    color: black;
+}
+
+
+/* .card {
+    height: 500px;
+    width: 100%;
+}
+
+.card img {
+    height: 300px;
+    width: 80%;
+}
+
+.card-button:hover {
+    background-color: #143a47;
+    color: white;
+} */

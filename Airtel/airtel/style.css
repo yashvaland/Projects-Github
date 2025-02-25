@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.left a {
+    color: gray;
+}
+
+.left .hey {
+    border-top: 2px solid red;
+}
+
+.left a:hover {
+    border-top: 2px solid red;
+    color: red;
+}
+
+.links a {
+    color: black;
+    font-size: 13px;
+}
+
+.links a:hover {
+    border-top: 2px solid red;
+    color: red;
+}
+
+
+/* slider */
+
+.content .text {
+    margin: 100px;
+}
+
+.content button {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.carousel-inner {
+    height: 500px;
+    width: 100%;
+}
+
+
+/*  */
+
+.btn .b1 {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    border: none;
+    background-color: whitesmoke;
+    color: red;
+}
+
+.btn .b1 {
+    background-color: black;
+    color: white;
+}
+
+.li {
+    width: 100%;
+    /* padding: 0px 0px; */
+    /* background-color: black; */
+}
+
+.li a:hover {
+    background-color: whitesmoke;
+}
+
+.co1 :hover {
+    background-color: red;
+}
+
+.work {
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.row1 {
+    padding-top: 5px;
+}
+
+.container {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.all {
+    height: 95%;
+    width: 100%;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+.all .col {
+    /* margin: 10px; */
+    padding: 0px 10px;
+}
+
+.all a {
+    text-decoration: none;
+    color: black;
+}
+
+.all a:hover {
+    color: red;
+}
+
+
+/* extra */
+
+.footer {
+    background-color: red;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>This is Cart Page</h1>
+    <div id="mainSection"></div>
+</body>
+
+</html>
+<script>
+    function Fetchdata() {
+        fetch("http://localhost:3000/cart").then((res) => res.json())
+            .then((data) => {
+                Cardlist(data)
+                productdata = data
+            })
+            .catch((err) => console.log(err))
+    }
+    Fetchdata()
+
+    function Cardlist(data) {
+        const store = data.map((el) => Card(el.id, el.image, el.title, el.founder, el.category, el.price, el.description))
+        document.getElementById("mainSection").innerHTML = store.join("");
+
+    }
+
+    function Card(id, image, title, founder, category, price, description) {
+        let singlecard = `
+    <a href="description.html?title=${encodeURIComponent(title)}&image=${encodeURIComponent(image)}&price=${encodeURIComponent(price)}&founder=${encodeURIComponent(founder)}&category=${encodeURIComponent(category)}&id=${encodeURIComponent(id)}&description=${encodeURIComponent(description)}">
+    <div class="card" data-id=${id}>
+        <div class="card-img">  
+            <img src=${image} alt="">
+        </div> 
+        <div class="card-body">
+            <h4 class="card-title">${title}</h4>
+            <p class="card-founder">${founder}</p>
+            <p class="card-category">${category}</p>
+            <p class="card-price">${price}</p>
+            <button data-id=${id} class="card-button">Delete</button>
+        </div>
+    </div>
+    </a>
+    `
+        return singlecard
+    }
+</script>
